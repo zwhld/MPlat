@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WorkflowCore.Users.Models
+{
+    public class OpenUserAction
+    {
+        public string Key { get; set; }
+
+        public string Prompt { get; set; }
+
+        public string AssignedPrincipal { get; set; }
+
+        public Dictionary<string, string> Options { get; set; } = new Dictionary<string, string>();
+
+		/// <summary>
+		/// 处理页面URL地址
+		/// </summary>
+		public string  ActionUrl{ get; set; }
+	}
+}

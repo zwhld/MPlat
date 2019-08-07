@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\中台\Camc.ZTCost\src\Camc.ZTCost.Application.Shared\Camc.ZTCost.Application.Shared.csproj" />
+    <ProjectReference Include="..\..\..\..\中台\Camc.ZTCost\src\Camc.ZTCost.Core.Shared\Camc.ZTCost.Core.Shared.csproj" />
+    <ProjectReference Include="..\..\..\..\中台\Camc.ZTStore\src\Camc.ZTStore.Application.Shared\Camc.ZTStore.Application.Shared.csproj" />
+    <ProjectReference Include="..\..\..\..\中台\Camc.ZTStore\src\Camc.ZTStore.Core.Shared\Camc.ZTStore.Core.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
